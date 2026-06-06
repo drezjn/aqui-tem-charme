@@ -1,9 +1,9 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, type ElementType, type ReactNode } from "react";
 
 export function Reveal({ children, delay = 0, as: As = "div", className = "" }: {
-  children: React.ReactNode;
+  children: ReactNode;
   delay?: number;
-  as?: keyof JSX.IntrinsicElements;
+  as?: ElementType;
   className?: string;
 }) {
   const ref = useRef<HTMLElement | null>(null);
@@ -25,6 +25,6 @@ export function Reveal({ children, delay = 0, as: As = "div", className = "" }: 
     obs.observe(el);
     return () => obs.disconnect();
   }, [delay]);
-  const Tag = As as any;
-  return <Tag ref={ref as any} className={`reveal ${className}`}>{children}</Tag>;
+  const Tag = As as ElementType;
+  return <Tag ref={ref} className={`reveal ${className}`}>{children}</Tag>;
 }
