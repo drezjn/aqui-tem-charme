@@ -241,7 +241,7 @@ function Index() {
               <div className="text-eyebrow text-gold">— Diferenciais</div>
               <h2 className="mt-5 text-[clamp(2.25rem,5vw,3.75rem)] leading-[1.02] text-display text-foreground">
                 Por que escolher o<br />
-                <span className="text-display-italic">"Seu salão de beleza"?</span>
+                <span className="text-display-italic">Seu salão de beleza?</span>
               </h2>
               <p className="mt-6 max-w-md text-muted-foreground">
                 Cuidado, técnica e acolhimento caminham juntos para entregar uma experiência sensorial completa.
@@ -386,7 +386,7 @@ function Index() {
             </h2>
             <div className="mt-7 space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                O "Seu salão de beleza" nasceu com um propósito claro: oferecer uma experiência de beleza completa, com atendimento humanizado e cuidado personalizado para cada cliente.
+                O Seu salão de beleza nasceu com um propósito claro: oferecer uma experiência de beleza completa, com atendimento humanizado e cuidado personalizado para cada cliente.
               </p>
               <p>
                 Mais do que um salão, somos um refúgio no Bairro Centro, onde cada detalhe é pensado para o seu bem-estar. Nossa equipe combina técnica, sensibilidade e amor pelo que faz.
@@ -419,7 +419,7 @@ function Index() {
                   <div className="flex gap-5">
                     <MapPin className="size-5 shrink-0 text-gold" />
                     <div>
-                      <div className="font-medium text-foreground">Av Amazonas, 486</div>
+                      <div className="font-medium text-foreground">Seu endereço, 000</div>
                       <div className="text-muted-foreground">Bairro Centro · Belo Horizonte - MG · CEP 00000-000</div>
                     </div>
                   </div>
@@ -437,8 +437,8 @@ function Index() {
                   <div className="flex gap-5">
                     <Instagram className="size-5 shrink-0 text-gold" />
                     <a href="https://instagram.com/andrezjn" target="_blank" rel="noreferrer" className="link-underline text-foreground">
-                      @espacoaquitemcharme
-                    </a>
+                      @seusalaodebeleza
+                      </a>
                   </div>
                 </div>
                 <a
@@ -529,7 +529,7 @@ function Index() {
           <div>
             <div className="text-eyebrow text-gold">Visite</div>
             <div className="mt-4 space-y-1.5 text-sm text-muted-foreground">
-              <div>Av Amazonas, 486</div>
+              <div>Seu endereço, 000</div>
               <div>Bairro Centro — Belo Horizonte, MG</div>
               <div>Ter–Sáb · 09h às 19h</div>
             </div>
@@ -538,12 +538,12 @@ function Index() {
             <div className="text-eyebrow text-gold">Contato</div>
             <div className="mt-4 space-y-1.5 text-sm text-muted-foreground">
               <a href="tel:+5531995251154" className="block link-underline">(31) 99525-1154</a>
-              <a href="https://instagram.com/andrezjn" target="_blank" rel="noreferrer" className="block link-underline">@andrezjn</a>
+              <a href="https://instagram.com/seusalaodebeleza" target="_blank" rel="noreferrer" className="block link-underline">@andrezjn</a>
             </div>
           </div>
         </div>
         <div className="mx-auto mt-12 max-w-7xl px-6 text-xs text-muted-foreground">
-          © {new Date().getFullYear()} "Seu salão de beleza" · Todos os direitos reservados
+          © {new Date().getFullYear()} Seu salão de beleza · Todos os direitos reservados
         </div>
       </footer>
 
