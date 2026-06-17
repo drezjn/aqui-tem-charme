@@ -86,7 +86,7 @@ function Index() {
       <header className="fixed inset-x-0 top-0 z-40 border-b border-border/40 bg-background/75 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:py-5">
           <a href="#top" className="flex items-baseline gap-2">
-            <span className="text-display text-2xl text-foreground">Aqui Tem Charme</span>
+            <span className="text-display text-2xl text-foreground">Salão de Beleza</span>
             <span className="hidden text-eyebrow text-gold sm:inline">est. ✦</span>
           </a>
           <nav className="hidden items-center gap-9 text-[13px] text-muted-foreground md:flex">
@@ -163,7 +163,7 @@ function Index() {
             <div className="relative">
               <img
                 src={heroImg}
-                alt="Salão Aqui Tem Charme em Contagem"
+                alt="Salão de Beleza em Contagem"
                 width={1600}
                 height={1200}
                 className="aspect-[4/5] w-full rounded-[2rem] object-cover shadow-luxe"
@@ -432,7 +432,7 @@ function Index() {
                   </div>
                   <div className="flex gap-5">
                     <Phone className="size-5 shrink-0 text-gold" />
-                    <a href="tel:+5531984211978" className="link-underline text-foreground">(31) 99525-1154</a>
+                    <a href="tel:+5531995251154" className="link-underline text-foreground">(31) 99525-1154</a>
                   </div>
                   <div className="flex gap-5">
                     <Instagram className="size-5 shrink-0 text-gold" />
@@ -523,7 +523,7 @@ function Index() {
       <footer className="border-t border-border bg-background py-14">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 md:grid-cols-[1.5fr_1fr_1fr]">
           <div>
-            <div className="text-display text-2xl text-foreground">Aqui Tem Charme</div>
+            <div className="text-display text-2xl text-foreground">Salão de Beleza</div>
             <div className="mt-3 max-w-sm text-sm text-muted-foreground leading-relaxed">Boutique de beleza no Bairro da Glória — onde cada cliente vive uma experiência única.</div>
           </div>
           <div>
