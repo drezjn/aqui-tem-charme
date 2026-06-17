@@ -63,7 +63,7 @@ const gallery = [
 const testimonials = [
   { name: "Mariana S.", text: "Atendimento impecável. Saí me sentindo outra pessoa — a equipe entendeu exatamente o que eu queria.", role: "Cliente desde 2022" },
   { name: "Juliana P.", text: "O ambiente é lindo, acolhedor e as profissionais são super atenciosas. Virei cliente fiel.", role: "Cliente" },
-  { name: "Camila R.", text: "Melhor salão do Bairro da Glória. Cabelo saiu maravilhoso e o cuidado é nota mil.", role: "Cliente" },
+  { name: "Camila R.", text: "Melhor salão do Centro. Cabelo saiu maravilhoso e o cuidado é nota mil.", role: "Cliente" },
   { name: "Beatriz L.", text: "Fiz uma hidratação e a diferença foi gigante. Recomendo demais, super profissionais.", role: "Cliente" },
 ];
 
@@ -117,14 +117,14 @@ function Index() {
           <div className="animate-fade-up">
             <div className="inline-flex items-center gap-3 rounded-full border border-gold/40 bg-background/70 px-5 py-2 text-eyebrow text-foreground/70 backdrop-blur">
               <span className="size-1.5 animate-gold-pulse rounded-full bg-gold" />
-              Contagem · Bairro da Glória
+              Belo Horizonte · Centro
             </div>
             <h1 className="mt-8 text-[clamp(2.75rem,7vw,5.5rem)] leading-[0.98] text-display text-foreground">
               A beleza que <span className="text-display-italic text-gold-deep">realça</span><br />
               sua melhor versão.
             </h1>
             <p className="mt-7 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              Cuidados completos para cabelos, unhas e estética em um ambiente acolhedor e profissional no Bairro da Glória, em Contagem.
+              Cuidados completos para cabelos, unhas e estética em um ambiente acolhedor e profissional no Centro, em Belo Horizonte.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-3">
               <a
@@ -163,7 +163,7 @@ function Index() {
             <div className="relative">
               <img
                 src={heroImg}
-                alt="Salão de Beleza em Contagem"
+                alt="Salão de Beleza em Belo Horizonte"
                 width={1600}
                 height={1200}
                 className="aspect-[4/5] w-full rounded-[2rem] object-cover shadow-luxe"
@@ -241,7 +241,7 @@ function Index() {
               <div className="text-eyebrow text-gold">— Diferenciais</div>
               <h2 className="mt-5 text-[clamp(2.25rem,5vw,3.75rem)] leading-[1.02] text-display text-foreground">
                 Por que escolher o<br />
-                <span className="text-display-italic">Seu salão de beleza?</span>
+                <span className="text-display-italic">"Seu salão de beleza"?</span>
               </h2>
               <p className="mt-6 max-w-md text-muted-foreground">
                 Cuidado, técnica e acolhimento caminham juntos para entregar uma experiência sensorial completa.
@@ -386,7 +386,7 @@ function Index() {
             </h2>
             <div className="mt-7 space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                O Seu salão de beleza nasceu com um propósito claro: oferecer uma experiência de beleza completa, com atendimento humanizado e cuidado personalizado para cada cliente.
+                O "Seu salão de beleza" nasceu com um propósito claro: oferecer uma experiência de beleza completa, com atendimento humanizado e cuidado personalizado para cada cliente.
               </p>
               <p>
                 Mais do que um salão, somos um refúgio no Bairro Centro, onde cada detalhe é pensado para o seu bem-estar. Nossa equipe combina técnica, sensibilidade e amor pelo que faz.
@@ -442,7 +442,7 @@ function Index() {
                   </div>
                 </div>
                 <a
-                  href="https://www.google.com/maps/dir/?api=1&destination=Rua+da+Bélgica+486+Contagem+MG"
+                  href="https://www.google.com/maps/dir/?api=1&destination=Rua+da+Bélgica+486+Belo Horizonte+MG"
                   target="_blank"
                   rel="noreferrer"
                   className="btn-luxe mt-10 inline-flex items-center gap-3 rounded-full bg-foreground px-8 py-4 text-sm font-medium text-background transition hover:text-foreground"
@@ -453,7 +453,7 @@ function Index() {
               <div className="overflow-hidden rounded-3xl border border-border shadow-luxe">
                 <iframe
                   title="Mapa Seu salão de beleza"
-                  src="https://www.google.com/maps?q=Rua+da+B%C3%A9lgica+486+Contagem+MG&output=embed"
+                  src="https://www.google.com/maps?q=Rua+da+B%C3%A9lgica+486+Belo Horizonte+MG&output=embed"
                   className="h-96 w-full border-0 lg:h-full"
                   loading="lazy"
                 />
@@ -524,7 +524,7 @@ function Index() {
         <div className="mx-auto grid max-w-7xl gap-10 px-6 md:grid-cols-[1.5fr_1fr_1fr]">
           <div>
             <div className="text-display text-2xl text-foreground">Salão de Beleza</div>
-            <div className="mt-3 max-w-sm text-sm text-muted-foreground leading-relaxed">Boutique de beleza no Bairro da Glória — onde cada cliente vive uma experiência única.</div>
+            <div className="mt-3 max-w-sm text-sm text-muted-foreground leading-relaxed">Boutique de beleza no Centro — onde cada cliente vive uma experiência única.</div>
           </div>
           <div>
             <div className="text-eyebrow text-gold">Visite</div>
@@ -543,7 +543,7 @@ function Index() {
           </div>
         </div>
         <div className="mx-auto mt-12 max-w-7xl px-6 text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Seu salão de Beleza · Todos os direitos reservados
+          © {new Date().getFullYear()} "Seu salão de beleza" · Todos os direitos reservados
         </div>
       </footer>
 
