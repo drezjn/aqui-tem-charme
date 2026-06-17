@@ -20,9 +20,9 @@ import { Reveal } from "@/components/site/Reveal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Aqui Tem Charme — Salão de Beleza em Contagem MG" },
-      { name: "description", content: "Boutique de beleza no Bairro da Glória, Contagem MG. Cabelos, unhas, estética facial e corporal. Experiência personalizada. Agende pelo WhatsApp." },
-      { property: "og:title", content: "Aqui Tem Charme — Boutique de Beleza" },
+      { title: "Seu Salão de Beleza em Belo Horizonte MG" },
+      { name: "description", content: "Salão beleza no Centro, Belo Horizonte MG. Cabelos, unhas, estética facial e corporal. Experiência personalizada. Agende pelo WhatsApp." },
+      { property: "og:title", content: "Seu Salão de Beleza" },
       { property: "og:description", content: "Seu momento de beleza começa aqui." },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -30,7 +30,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const WHATSAPP = "https://wa.me/5531984211978?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20Aqui%20Tem%20Charme.";
+const WHATSAPP = "https://wa.me/5531995251154?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20Aqui%20Tem%20Charme.";
 
 const services = [
   { icon: Scissors, title: "Cabelos", desc: "Cortes, escova, finalização e cuidados completos para cada tipo de fio." },
@@ -241,7 +241,7 @@ function Index() {
               <div className="text-eyebrow text-gold">— Diferenciais</div>
               <h2 className="mt-5 text-[clamp(2.25rem,5vw,3.75rem)] leading-[1.02] text-display text-foreground">
                 Por que escolher o<br />
-                <span className="text-display-italic">Aqui Tem Charme?</span>
+                <span className="text-display-italic">Seu salão de beleza?</span>
               </h2>
               <p className="mt-6 max-w-md text-muted-foreground">
                 Cuidado, técnica e acolhimento caminham juntos para entregar uma experiência sensorial completa.
@@ -386,10 +386,10 @@ function Index() {
             </h2>
             <div className="mt-7 space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                O Aqui Tem Charme nasceu com um propósito claro: oferecer uma experiência de beleza completa, com atendimento humanizado e cuidado personalizado para cada cliente.
+                O Seu salão de beleza nasceu com um propósito claro: oferecer uma experiência de beleza completa, com atendimento humanizado e cuidado personalizado para cada cliente.
               </p>
               <p>
-                Mais do que um salão, somos um refúgio no Bairro da Glória, onde cada detalhe é pensado para o seu bem-estar. Nossa equipe combina técnica, sensibilidade e amor pelo que faz.
+                Mais do que um salão, somos um refúgio no Bairro Centro, onde cada detalhe é pensado para o seu bem-estar. Nossa equipe combina técnica, sensibilidade e amor pelo que faz.
               </p>
             </div>
             <div className="mt-10 grid grid-cols-3 gap-6 border-t border-border pt-8">
@@ -419,8 +419,8 @@ function Index() {
                   <div className="flex gap-5">
                     <MapPin className="size-5 shrink-0 text-gold" />
                     <div>
-                      <div className="font-medium text-foreground">Rua da Bélgica, 486</div>
-                      <div className="text-muted-foreground">Bairro da Glória · Contagem - MG · CEP 32340-030</div>
+                      <div className="font-medium text-foreground">Av Amazonas, 486</div>
+                      <div className="text-muted-foreground">Bairro Centro · Belo Horizonte - MG · CEP 00000-000</div>
                     </div>
                   </div>
                   <div className="flex gap-5">
@@ -432,11 +432,11 @@ function Index() {
                   </div>
                   <div className="flex gap-5">
                     <Phone className="size-5 shrink-0 text-gold" />
-                    <a href="tel:+5531984211978" className="link-underline text-foreground">(31) 98421-1978</a>
+                    <a href="tel:+5531984211978" className="link-underline text-foreground">(31) 99525-1154</a>
                   </div>
                   <div className="flex gap-5">
                     <Instagram className="size-5 shrink-0 text-gold" />
-                    <a href="https://instagram.com/espacoaquitemcharme" target="_blank" rel="noreferrer" className="link-underline text-foreground">
+                    <a href="https://instagram.com/andrezjn" target="_blank" rel="noreferrer" className="link-underline text-foreground">
                       @espacoaquitemcharme
                     </a>
                   </div>
@@ -452,7 +452,7 @@ function Index() {
               </div>
               <div className="overflow-hidden rounded-3xl border border-border shadow-luxe">
                 <iframe
-                  title="Mapa Aqui Tem Charme"
+                  title="Mapa Seu salão de beleza"
                   src="https://www.google.com/maps?q=Rua+da+B%C3%A9lgica+486+Contagem+MG&output=embed"
                   className="h-96 w-full border-0 lg:h-full"
                   loading="lazy"
@@ -529,21 +529,21 @@ function Index() {
           <div>
             <div className="text-eyebrow text-gold">Visite</div>
             <div className="mt-4 space-y-1.5 text-sm text-muted-foreground">
-              <div>Rua da Bélgica, 486</div>
-              <div>Bairro da Glória — Contagem, MG</div>
+              <div>Av Amazonas, 486</div>
+              <div>Bairro Centro — Belo Horizonte, MG</div>
               <div>Ter–Sáb · 09h às 19h</div>
             </div>
           </div>
           <div>
             <div className="text-eyebrow text-gold">Contato</div>
             <div className="mt-4 space-y-1.5 text-sm text-muted-foreground">
-              <a href="tel:+5531984211978" className="block link-underline">(31) 98421-1978</a>
-              <a href="https://instagram.com/espacoaquitemcharme" target="_blank" rel="noreferrer" className="block link-underline">@espacoaquitemcharme</a>
+              <a href="tel:+5531995251154" className="block link-underline">(31) 99525-1154</a>
+              <a href="https://instagram.com/andrezjn" target="_blank" rel="noreferrer" className="block link-underline">@andrezjn</a>
             </div>
           </div>
         </div>
         <div className="mx-auto mt-12 max-w-7xl px-6 text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Aqui Tem Charme Espaço de Beleza · Todos os direitos reservados
+          © {new Date().getFullYear()} Seu salão de Beleza · Todos os direitos reservados
         </div>
       </footer>
 

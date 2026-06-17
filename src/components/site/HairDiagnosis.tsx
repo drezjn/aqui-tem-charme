@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Sparkles, ArrowRight, RotateCcw } from "lucide-react";
 
-const WHATSAPP = "https://wa.me/5531984211978?text=Ol%C3%A1%21%20Fiz%20o%20diagn%C3%B3stico%20capilar%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.";
+const WHATSAPP = "https://wa.me/5531995251154?text=Ol%C3%A1%21%20Fiz%20o%20diagn%C3%B3stico%20capilar%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.";
 
 type Step = {
   key: string;
